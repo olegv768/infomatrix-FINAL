@@ -23,7 +23,7 @@ export default function Navbar({ currentPage, onNavigate }) {
               <i className="fa-solid fa-road text-white text-lg"></i>
             </div>
             <span className="text-xl font-bold bg-linear-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              RoadmapAI
+              LevelUp Map
             </span>
           </button>
 

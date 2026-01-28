@@ -9,23 +9,17 @@ export default function Footer({ onNavigate }) {
               <div className="w-10 h-10 rounded-xl bg-linear-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
                 <i className="fa-solid fa-road text-white"></i>
               </div>
-              <span className="text-xl font-bold text-white">RoadmapAI</span>
+              <span className="text-xl font-bold text-white">LevelUp Map</span>
             </div>
             <p className="text-slate-400 mb-4 max-w-md">
-              Create personalized learning roadmaps with AI. Transform your goals into actionable step-by-step guides powered by advanced artificial intelligence.
+              Create personalized learning roadmaps with AI. Transform your goals into actionable step-by-step guides powered by LevelUp Map.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all">
-                <i className="fa-brands fa-twitter"></i>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all" title="GitHub">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all">
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all">
-                <i className="fa-brands fa-discord"></i>
+              <a href="mailto:levelupmap121@gmail.com" className="w-10 h-10 rounded-lg bg-white/5 hover:bg-indigo-500/20 flex items-center justify-center text-slate-400 hover:text-indigo-400 transition-all" title="Email Us">
+                <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
           </div>
@@ -63,15 +57,11 @@ export default function Footer({ onNavigate }) {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-400">
                 <i className="fa-solid fa-envelope text-indigo-400"></i>
-                <span>hello@roadmapai.com</span>
+                <span>levelupmap121@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-slate-400">
                 <i className="fa-solid fa-location-dot text-indigo-400"></i>
-                <span>Astana, Kazakhstan</span>
-              </li>
-              <li className="flex items-center gap-3 text-slate-400">
-                <i className="fa-solid fa-phone text-indigo-400"></i>
-                <span>+7 (700) 123-4567</span>
+                <span>Taraz, Kazakhstan</span>
               </li>
             </ul>
           </div>
@@ -79,7 +69,7 @@ export default function Footer({ onNavigate }) {
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 RoadmapAI. All rights reserved.
+            © 2026 LevelUp Map. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-slate-500 hover:text-slate-300 transition-colors">Privacy Policy</a>

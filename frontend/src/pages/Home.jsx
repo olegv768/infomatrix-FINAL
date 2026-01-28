@@ -74,7 +74,7 @@ export default function Home({ onNavigate }) {
             <span>Powered by Google Gemini AI</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in-up font-['Outfit'] tracking-tight" style={{ animationDelay: '0.1s' }}>
             Transform Your Goals Into
             <span className="block mt-2 bg-linear-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Actionable Roadmaps
@@ -90,8 +90,8 @@ export default function Home({ onNavigate }) {
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 mt-16">
-            <h2 className="text-4xl font-bold text-white mb-4"
-              style={{ paddingBottom: '40px' }}>Why Choose RoadmapAI?</h2>
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 font-['Outfit'] tracking-tight"
+              style={{ paddingBottom: '40px' }}>Why Choose LevelUp Map?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -117,10 +117,12 @@ export default function Home({ onNavigate }) {
         style={{ padding: 'clamp(80px, 10vw, 112px) clamp(32px, 8vw, 80px)' }}
       >
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">How It Works</h2>
+          <div className="h-[70px]"></div> {/* Explicit 70px gap from top */}
+          <div className="text-center -mt-[50px]">
+            <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-2 font-['Outfit'] tracking-tight">How It Works</h2>
             <p className="text-slate-400 text-lg">Three simple steps to your personalized roadmap</p>
           </div>
+          <div style={{ height: '70px' }}></div> {/* Forced 70px gap */}
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
